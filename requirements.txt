@@ -4,5 +4,6 @@ matplotlib
 scipy
 streamlit
 seaborn
+sklearn
 tensorflow
 keras
