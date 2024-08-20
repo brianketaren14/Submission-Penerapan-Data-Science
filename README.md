@@ -7,7 +7,7 @@ Jaya Jaya Institut merupakan salah satu institusi pendidikan perguruan yang tela
 Jumlah dropout yang tinggi ini menjadi salah satu masalah yang besar untuk sebuah institusi pendidikan. Oleh karena itu, Jaya Jaya Institut ingin mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberi bimbingan khusus.
 
 ### Cakupan Proyek
-Tuliskan cakupan proyek yang akan dikerjakan.
+Adapaun cakupan proyek ini meliputi Persiapan Data, Data Understanding, Modelling, dan Pembuatan Dashboard.
 
 ### Persiapan
 
