@@ -5,5 +5,3 @@ scipy
 streamlit
 seaborn
 scikit-learn
-pickle
-
