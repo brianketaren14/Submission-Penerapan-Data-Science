@@ -1,7 +1,7 @@
 import streamlit as st 
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
-import pickle
+import joblib
 
 st.write(
     """
@@ -41,8 +41,7 @@ if st.button('predict'):
     x_append = [x[0][0], x[1][0], x[2][0], x[3][0], x5, x[4][0], x[5][0], x7, x[6][0], x[7][0]]
     input_array = np.array(x_append)
 
-    with open('model.pkl', 'rb') as file:  
-        model = pickle.load(file)
+    model = joblib.load('model.sav')
 
     y = model.predict([input_array])[0]
 
