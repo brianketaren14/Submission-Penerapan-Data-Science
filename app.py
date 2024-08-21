@@ -38,7 +38,7 @@ if st.button('predict'):
 
     x_append = [x[0][0], x[1][0], x[2][0], x4, x[3][0], x[4][0], x[5][0], x8, x[6][0], x[7][0]]
     input_array = np.array(x_append)
-    model = joblib.load('model.joblib')
+    model = joblib.load('./model.joblib')
     y = model.predict([input_array])[0]
 
     if y == 2:
