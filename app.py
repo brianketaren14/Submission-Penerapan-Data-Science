@@ -1,7 +1,7 @@
 import streamlit as st 
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
-import joblib
+import pickle
 
 st.write(
     """
@@ -41,7 +41,7 @@ if st.button('predict'):
     x_append = [x[0][0], x[1][0], x[2][0], x[3][0], x5, x[4][0], x[5][0], x7, x[6][0], x[7][0]]
     input_array = np.array(x_append)
 
-    model = joblib.load('model.sav')
+    model = pickle.load(open('model.pkl', 'rb'))
 
     y = model.predict([input_array])[0]
 
@@ -51,5 +51,3 @@ if st.button('predict'):
         st.title("Enrolled")
     elif y == 0:
         st.title("Dropout")
-
-    
