@@ -41,7 +41,7 @@ if st.button('predict'):
     x_append = [x[0][0], x[1][0], x[2][0], x[3][0], x5, x[4][0], x[5][0], x7, x[6][0], x[7][0]]
     input_array = np.array(x_append)
 
-    model = pickle.load(open('model.pkl', 'rb'))
+    model = pickle.load(open('model.sav', 'rb'))
 
     y = model.predict([input_array])[0]
 
