@@ -28,9 +28,9 @@ link : https://lookerstudio.google.com/reporting/232a6cd4-6254-47a6-9cb7-a579b63
 ## Menjalankan Sistem Machine Learning
 Untuk melakukan prediksi : Input nilai untuk setiap feature lalu klik tombol predict.
 
-link : https://submission-penerapan-data-science-5qomiya8qfx86nknvnghjm.streamlit.app
+link : https://submission-penerapan-data-science-aejqjgfevn9rrsvgquvrdc.streamlit.app/
 
-![image](https://github.com/user-attachments/assets/f9af81e3-347b-41f3-8cb9-9775e3e25435)
+![image](https://github.com/user-attachments/assets/efbb1a1a-ceb4-4e6d-ac78-f0c1865ca763)
 
 ## Conclusion
 
