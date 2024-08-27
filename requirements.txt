@@ -1,8 +1,5 @@
 numpy
-scipy
-scikit-learn
-matplotlib
 pandas
 streamlit
-altair
-pickle-mixin
+scikit-learn
+tensorflow
